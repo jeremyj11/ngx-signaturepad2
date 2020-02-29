@@ -53,7 +53,6 @@ export class AppComponent {
   width: number = 600;
   height: number = 300;
   options: any = null;
-  fromDataURL = null;
 
   constructor() { }
 
