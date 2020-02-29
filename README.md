@@ -1,4 +1,4 @@
-# NgxSignaturepad2Demo
+# NgxSignaturepad2
 
 Angular 8 component for [szimek/signature_pad](https://www.npmjs.com/package/signature_pad).
 
