@@ -5,8 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:ngx-signaturepad": "ng build ngx-signaturepad && npm run copy:lib:dist",
-    "copy:lib:dist": "cp -r ./projects/ngx-signaturepad/src ./dist/ngx-signaturepad/src",
+    "build:ngx-signaturepad": "ng build ngx-signaturepad",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
