@@ -13,9 +13,9 @@ Angular 8 component for [szimek/signature_pad](https://www.npmjs.com/package/sig
 API is identical to [szimek/signature_pad](https://www.npmjs.com/package/signature_pad).
 
 Inputs:
-options are as per [szimek/signature_pad](https://www.npmjs.com/package/signature_pad)
-width: width of the canvas (px)
-height: height of the canvas (px)
+* options are as per [szimek/signature_pad](https://www.npmjs.com/package/signature_pad)
+* width: width of the canvas (px)
+* height: height of the canvas (px)
 
 ```typescript
 
@@ -107,6 +107,8 @@ export class AppComponent {
 }
 
 ```
+HTML:
+
 ```html
 <div style="border:1px solid red" [style.width]="width+'px'" [style.height]="height+'px'">
 
