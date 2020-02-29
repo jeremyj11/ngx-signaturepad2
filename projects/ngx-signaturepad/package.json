@@ -1,6 +1,6 @@
 {
   "name": "ngx-signaturepad2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular8 wrapper for szimek / signature_pad",
   "author": "Jeremy Jacob",
   "repository": {
