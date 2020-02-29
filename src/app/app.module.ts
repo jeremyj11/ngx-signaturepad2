@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { NgxSignaturepadModule } from 'projects/ngx-signaturepad/src/public-api';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxSignaturepadModule
   ],
   providers: [],
   bootstrap: [AppComponent]

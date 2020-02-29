@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-signaturepad": [
+        "dist/ngx-signaturepad"
+      ],
+      "ngx-signaturepad/*": [
+        "dist/ngx-signaturepad/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

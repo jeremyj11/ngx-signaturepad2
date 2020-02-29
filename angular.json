@@ -124,6 +124,41 @@
           }
         }
       }
+    },
+    "ngx-signaturepad": {
+      "projectType": "library",
+      "root": "projects/ngx-signaturepad",
+      "sourceRoot": "projects/ngx-signaturepad/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngx-signaturepad/tsconfig.lib.json",
+            "project": "projects/ngx-signaturepad/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-signaturepad/src/test.ts",
+            "tsConfig": "projects/ngx-signaturepad/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-signaturepad/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-signaturepad/tsconfig.lib.json",
+              "projects/ngx-signaturepad/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "ngx-signaturepad-demo"
 }

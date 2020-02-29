@@ -1,0 +1,21 @@
+{
+  "name": "ngx-signaturepad2",
+  "version": "1.0.0",
+  "description": "Angular8 wrapper for szimek / signature_pad",
+  "author": "Jeremy Jacob",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyj11/ngx-signaturepad2.git"
+  },
+  "keywords": [
+    "signature_pad",
+    "signature pad",
+    "ngx-signaturepad",
+    "Angular"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "signature_pad": "^3.0.0-beta.3"
+  }
+}
