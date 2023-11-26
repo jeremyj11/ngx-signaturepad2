@@ -1,6 +1,6 @@
 {
   "name": "ngx-signaturepad2-demo",
-  "version": "1.0.0",
+  "version": "1.0.12",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +10,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^12",
     "@angular/cdk": "^12",
